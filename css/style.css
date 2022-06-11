@@ -29,7 +29,7 @@ ul {
     list-style-type: none;
 }
 
-a {
+.hero a {
     text-decoration: none;
     color: #F9FAF8;
 }
@@ -49,6 +49,24 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 120px;
+}
+
+.header button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 5px 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 150px;
+}
+
+.header button:hover {
+    color: #3882F6;
+    background-color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .hero-main-text {
