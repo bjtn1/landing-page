@@ -146,7 +146,22 @@ a {
 
 .cta {
     background: #3882F6;
-    flex: 1;
+    padding: 25px 100px;
+    width: 480px;
+    border-radius: 35px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin: 75px;
+    align-self: center;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cta-text {
+    margin-top: 10px;
 }
 
 /* END: CTA SECTION */
