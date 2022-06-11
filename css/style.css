@@ -172,6 +172,7 @@ a {
 .footer {
     display: flex;
     justify-content: center;
+    font-weight: lighter;
 }
 
 /* END FOOTER SECTION */
