@@ -1,4 +1,5 @@
 body {
+    background-color: #F7F3E3;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -6,23 +7,74 @@ body {
     flex-direction: column;
 }
 
-.footer,.nav,.header {
-    background: #1f2937;
-}
-
-.footer,.nav,.header,.cta {
-    color: #F9FAF8;
-}
-
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Colors and stuff */
+
+
+.footer,.nav,.header {
+    background: #3E1929;
+}
+
+.footer,.nav,.header,.cta,.header-logo-text,.hero a,.header button,.hero-main-text,.cta button {
+    color: #F9FAF8;
+}
+
+.header button {
+    background-color: #004643;
+    border: 2px solid #004643;
+}
+
+.header button:hover {
+    color: #004643;
+    background-color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+}
+
+.hero-secondary-text,a {
+    color: #E5E7EB
+}
+
+.rectangle {
+    background: #F7F3E3;
+}
+
+.information-header-text {
+    color: #1F2937;
+}
+
+.box {
+    border: 3px solid #004643;
+}
+
+.quote {
+    background: #EEE3AB;
+}
+
+.quote-text {
+    color: #1F2937;
+}
+
+.cta button {
+    border: 2px solid #E5E7EB;
+}
+
+.cta button:hover {
+    color: #004643;
+    background-color: #E5E7EB;
+}
+
+.cta {
+    background: #004643;
+}
+
 
 /* START: HERO SECTION */
 
 .header-logo-text {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 ul {
@@ -31,7 +83,6 @@ ul {
 
 .hero a {
     text-decoration: none;
-    color: #F9FAF8;
 }
 
 .nav {
@@ -52,9 +103,6 @@ ul {
 }
 
 .header button {
-    color: #F9FAF8;
-    background-color: #3882F6;
-    border: 2px solid #3882F6;
     border-radius: 8px;
     padding: 5px 15px;
     transition-duration: 0.4s;
@@ -63,41 +111,31 @@ ul {
 }
 
 .header button:hover {
-    color: #3882F6;
-    background-color: #E5E7EB;
-    border: 2px solid #E5E7EB;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
     margin: 0;
 }
 
 .hero-secondary-text,a {
     font-size: 18px;
-    color: #E5E7EB
 }
 
 .rectangle {
     width: 700px;
     height: 300px;
-    background: #e5e7eb8a;
     border-radius: 50px;
     margin-left: 20px;
 }
-
-/* END: HERO SECTION */
-
 
 /* START: INFORMATION SECTION */
 
 .information-header-text {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
     margin-top: -40px;
 }
 
@@ -119,7 +157,6 @@ ul {
 }
 
 .box {
-    border: 3px solid #3882F6;
     border-radius: 25px;
     width: 200px;
     height: 200px;
@@ -137,7 +174,6 @@ ul {
 /* START: QUOTE SECTION */
 
 .quote {
-    background: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +181,6 @@ ul {
 
 .quote-text {
     font-size: 36px;
-    color: #1F2937;
     font-weight: lighter;
     font-style: italic;
     padding: 150px;
@@ -164,9 +199,7 @@ ul {
 /* START: CTA SECTION */
 
 .cta button {
-    color: #F9FAF8;
     background-color: transparent;
-    border: 2px solid #E5E7EB;
     border-radius: 8px;
     padding: 5px 15px;
     transition-duration: 0.4s;
@@ -175,13 +208,10 @@ ul {
 }
 
 .cta button:hover {
-    color: #3882F6;
-    background-color: #E5E7EB;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .cta {
-    background: #3882F6;
     padding: 25px 100px;
     width: 480px;
     border-radius: 35px;
@@ -189,7 +219,6 @@ ul {
     margin: 75px;
     align-self: center;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
